@@ -6,6 +6,8 @@ RUN apt-get update -q && apt-get install -yq --no-install-recommends \
         curl \
         wget \
         dnsutils \
+        iputils-ping \
+        telnet \
         git && \
 
     # clean up
