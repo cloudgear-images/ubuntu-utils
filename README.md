@@ -8,6 +8,9 @@ Run it with a console attached
 
     docker run -it cloudgear/ubuntu-utils
 
+or with a custom DNS server:
+
+    docker run -it --dns 10.3.0.10 cloudgear/ubuntu-utils
 
 ----
 
