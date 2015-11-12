@@ -8,6 +8,8 @@ RUN apt-get update -q && apt-get install -yq --no-install-recommends \
         dnsutils \
         iputils-ping \
         telnet \
+        net-tools \
+        tcpdump \
         git && \
 
     # clean up
