@@ -9,6 +9,7 @@ RUN apt-get update -q && apt-get install -yq --no-install-recommends \
         iputils-ping \
         telnet \
         net-tools \
+        netcat \
         tcpdump \
         git && \
 
